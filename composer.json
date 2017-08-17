@@ -1,0 +1,22 @@
+{
+    "name": "xm/doctrine-entity-repository",
+    "description": "A different method of creating entity repositories for use with Doctrine.",
+    "homepage": "https://github.com/xmmedia/doctrine-entity-repository",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darryl Hein",
+            "email": "dhein@xmmedia.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "doctrine/orm": "~2.5"
+    },
+    "autoload": {
+        "psr-4": { "XM\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}

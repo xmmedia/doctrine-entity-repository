@@ -1,0 +1,8 @@
+Icon?
+.DS_Store
+.svn
+*~
+*.swp
+/composer.phar
+/composer.lock
+/vendor
