@@ -10,7 +10,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```console
-composer require xm\doctrine-entity-repository
+composer require xm/doctrine-entity-repository
 ```
 
 This command requires [Composer](https://getcomposer.org/download/).
